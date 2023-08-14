@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIWANSHU PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img src="images/logo.png" class="logo">-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="#services">Services</a></li>-->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Hi, I'm <span>Diwanshu Singh</span></h2>
+            </div>
+        </div>
+    </div>
+    <!--about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/Diwanshu.bmp">
+                </div>
+                <div class="about-col2">
+                    <h2 class="title">About Me</h2>
+                    <p>Hi ,I'm Diwanshu Singh a 3rd year undergradute program (UG) student pursuing B-Tech in Mechanical
+                        Engineering from <span>National Institute Of Technology Durgapur (NIT DGP) </span>.
+                        <br><br>A coding and competitive programming enthusiast and fluently proficient in C, C++
+                        languages and web development .<br><br>
+                        My passion is for creating intuitive, user-friendly websites and applications to continually
+                        upskill my knowledge of frontend technologies such as HTML,CSS, javascript and more.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class=" tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>html css javascript</li><br>
+                            <li><span>Programming Languages</span><br>C C++ MATLAB</li><br>
+                            <li><span>Non-Technical skills</span><br>Communication Leadership Management Problem Solving
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>National Institute Of Technology Durgapur</span> <br> B-Tech Mechanical
+                                Engineering <br> December 2021 - June 2025<br>CGPA: 8.25</li>
+                            <li><span>Varda Smart School (Neem ka thana , Rajasthan)</span><br> March 2018 - April 2020
+                                <br>Percentage: 84.00
+                            </li>
+                            <li><span>Varda Smart School (Neem ka thana , Rajasthan)</span><br>March 2016 - April
+                                2018<br>Percentage: 91.60</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--project section-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio_11.jpeg">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Created a dynamic and visually appealing personal portfolio website to showcase my skills,
+                            experiences, and achievements.<br> The project involved designing and developing a
+                            responsive website using HTML, CSS, and JavaScript, aimed at highlighting my journey and
+                            accomplishments.</p>
+                        <a href="https://github.com/diwanshu1602/Personal-Portfolio-Website"><i
+                                class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/clone.jpg">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>Designed and developed a user-friendly and responsive website interface that closely mimicked
+                            Amazon's layout.
+                            <br> Utilized modern technologies including HTML, CSS, JavaScript to show core features of
+                            the Amazon website, such as user authentication,
+                            product catalog display, shopping cart functionality, and secure payment processing
+                        </p>
+                        <a href="https://github.com/diwanshu1602/Amazon-clone"><i
+                                class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+        <!--Conatcts-->
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><a href="singhdiwanshu1602@gmail.com"><i
+                                    class="fa-solid fa-envelope"></i></a>singhdiwanshu1602@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8529569682</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/diwanshu-singh-034665278"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/diwanshu1602"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100090293498895"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://instagram.com/diwanshu_singh16?igshid=YWYwM2I1ZDdmOQ=="><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="text" name="email" placeholder="Your email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemeu.style.right = "-200px";
+            }
+
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx8fbxajtBtgH2Q0RiufgJ1BohWkK6oKyQgnZSMqiuXkkiF5kwiHcnWUwbvAjByf0zp/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 4000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+
+        </script>
+
+</body>
+
+</html>
